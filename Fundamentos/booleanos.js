@@ -29,5 +29,5 @@ console.log(!!(isAtivo = false))
 console.log('Pra finalizar...')
 console.log(!!('' || null || 0 || ' '))
 
-let nome = 'Lucas'
-console.log(nome || 'Desconhecido') // Devolve 'Desconhecido' caso a variavel não receba valor algum.
+let nome = ''
+console.log(nome || 'Desconhecido') // Devolve 'Desconhecido' caso a variavel nome não receba valor algum.
