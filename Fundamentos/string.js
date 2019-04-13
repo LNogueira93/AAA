@@ -8,7 +8,7 @@ console.log(escola.substring(1)) // Vai do índice 1 até o fim da string
 console.log(escola.substring(0, 3)) // Vai do índice 0 ao 2, não inclui o indice 3
 
 console.log('Escola '.concat(escola).concat('!'))
-console.log('Escola ' + escola + '!')
+console.log('Escola ' + escola + '!') //Concatenação com operador aritmético +
 console.log(escola.replace(3, 'e')) // Substitui o número 3 pela letra e
 
 console.log('Ana, Maria, Pedro'.split(',')) // Quebra a string com virgula e cria uma array
