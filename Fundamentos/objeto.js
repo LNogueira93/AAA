@@ -1,4 +1,4 @@
-// JSON (JavaScript Object Notation)
+// JSON (JavaScript Object Notation). É um formato textual
 // Objeto é uma coleção de chaves e valores
 
 const prod1 = {}
@@ -11,4 +11,5 @@ const prod2 = {
     nome: 'Camisa Polo',
     preco: 79.90
 }
+
 console.log(prod2)
