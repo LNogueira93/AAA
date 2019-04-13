@@ -9,7 +9,11 @@ console.log(prod1)
 
 const prod2 = {
     nome: 'Camisa Polo',
-    preco: 79.90
+    preco: 80.0
 }
+
+prod2.Desconto = 0.5
+prod2.TotalDesconto = prod2.preco * prod2.Desconto
+prod2.ValorTotal = prod2.preco - prod2.TotalDesconto
 
 console.log(prod2)
