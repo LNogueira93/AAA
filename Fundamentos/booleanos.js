@@ -30,4 +30,4 @@ console.log('Pra finalizar...')
 console.log(!!('' || null || 0 || ' '))
 
 let nome = ''
-console.log(nome || 'Desconhecido') // Devolve 'Desconhecido' caso a variavel nome não receba valor algum.
+console.log(nome || 'Desconhecido') // Adota como padrão 'Desconhecido' caso a variavel nome não receba valor algum.
