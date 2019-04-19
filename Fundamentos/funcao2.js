@@ -10,6 +10,12 @@ const soma = (a, b) => {
     return a + b
 }
 
+subtrai = (a, b) => {
+    console.log(a - b)
+}
+
+subtrai(4, 2)
+
 console.log(soma(2, 3))
 
 // retorno implícito
