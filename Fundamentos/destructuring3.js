@@ -1,5 +1,12 @@
 function rand({ min = 0, max = 1000 }) {
     const valor = Math.random() * (max - min) + min
+    if (valor % 2 >= 1) {
+        if (true) {
+            console.log('É impar!')            
+        }
+    } else {
+        console.log('É par!')
+    }
     return Math.floor(valor)
 }
 
@@ -9,4 +16,4 @@ console.log(rand({ min: 955 }))
 console.log(rand({}))
 const obj2 = { min: 13, max: 23}
 console.log(rand(obj2))
-console.log(rand())
+// console.log(rand())
