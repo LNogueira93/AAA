@@ -38,5 +38,9 @@ carro.fabricante = fabricante.nome
 carro.modelo = fabricante.modeloB
 carro.preco = fabricante.precoB
 carro.proprietario = pessoas.pessoa1
+carro.qdtcondutores = function(){
+    return carro.condutores.length;
+}
 console.log(carro)
-console.log('Existem ' + carro.condutores.length + ' condutores atualmente!')
+console.log(carro.qdtcondutores())
+console.log('Existem ' + carro.qdtcondutores() + ' condutores atualmente!')
